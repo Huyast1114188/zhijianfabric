@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "zhijianfabric",
+  "version": "${version}",
+
+  "name": "zhijianfabric",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/zhijianfabric/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
