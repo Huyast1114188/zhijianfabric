@@ -2,22 +2,26 @@
   "schemaVersion": 1,
   "id": "zhijianfabric",
   "version": "${version}",
-
   "name": "zhijianfabric",
   "description": "",
   "authors": [],
-  "contact": {},
-
+  "contact": {
+    "repo": "https://github.com/90971/zhijianfabric"
+  },
   "license": "All-Rights-Reserved",
   "icon": "assets/zhijianfabric/icon.png",
-
   "environment": "*",
-  "entrypoints": {},
-
-
+  "entrypoints": {
+    "client": [
+      "org.fgg2333.zhijianfabric.client.ZhijianfabricClient"
+    ],
+    "main": [
+      "org.fgg2333.zhijianfabric.Zhijianfabric"
+    ]
+  },
   "depends": {
     "fabricloader": ">=${loader_version}",
-        "fabric": "*",
+    "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
 }
